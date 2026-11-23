@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Ảnh mô phỏng hồng ngoại thiếu chi tiết màu và độ tương phản ở vùng dây an toàn hoặc bên trong ghế",seatbelt / occupied,"Giữ giá trị unknown nếu không thấy rõ, không suy đoán từ ảnh RGB"
+S04_ir,IR_sim,"Không có thông tin màu sắc, chỉ dựa vào độ sáng và hình dạng để nhận diện hướng nôi em bé",facing,"Phải dựa vào đường nét/hình dạng khung nôi (rear/front), dễ nhầm nếu bị tối"
+D01,real_IR,"Ánh sáng NIR chiếu lên tròng kính cận của tài xế tạo vùng phản xạ nhẹ quanh mắt phải",glasses / face13,"Nhận diện rõ gọng kính (clear), bật cờ occluded cho các điểm mắt bị phản xạ che"
+D04,real_IR,"Vùng mắt/một phần mặt bị che hoặc thiếu sáng trên ảnh NIR xoay 90 độ",eye_right / face13,"Ghi unknown cho mắt không thấy rõ và bật cờ occluded/outside cho điểm mặt bị che"

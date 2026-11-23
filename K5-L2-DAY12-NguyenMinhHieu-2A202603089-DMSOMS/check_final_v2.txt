@@ -1,0 +1,5 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=11, face=6, face13=6, hand=12, infant_seat=9, object=4, person=10, phone=1
+  [WARN] D01.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+Ghi chú WARN (D01.png): Các điểm right_eye_* được bật cờ occluded do bị gọng/phản xạ kính che nhẹ ở khóe/mép, nhưng khe mắt vẫn quan sát thấy mở (open).
